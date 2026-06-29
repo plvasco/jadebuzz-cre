@@ -15,11 +15,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <a href="/" className="text-[#f59e0b] font-bold text-sm">🏬 JadeBuzz CRE</a>
             <div className="flex gap-4 text-sm">
               <a href="/" className="text-[#8b95a9] hover:text-[#e2e8f0]">📊 Dashboard</a>
+              <a href="/off-market" className="text-[#8b95a9] hover:text-[#e2e8f0]">🔍 Off-Market</a>
               <a href="/distressed" className="text-[#8b95a9] hover:text-[#e2e8f0]">⚠️ Distressed</a>
               <a href="/cap-rates" className="text-[#8b95a9] hover:text-[#e2e8f0]">🧭 Cap Rates</a>
               <a href="/calculator" className="text-[#8b95a9] hover:text-[#e2e8f0]">🧮 Calculator</a>
-              <a href="/listings" className="text-[#8b95a9] hover:text-[#e2e8f0]">📋 Listings</a>
-              <a href="/submarkets" className="text-[#8b95a9] hover:text-[#e2e8f0]">🗺️ Submarkets</a>
             </div>
           </div>
         </nav>
